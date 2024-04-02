@@ -21,7 +21,7 @@
   - This involves integrating the trained model into a production environment where it can be used to detect deepfakes in real-world scenarios.
   - That is basically, it involves implementing the trained model into a web platform or application for users to upload and analyze audio-video content for deepfake detection.
 ## Model Architecture 
-###For video : EfficientNetAutoAttB4
+### For video : EfficientNetAutoAttB4
   - It is a variant of the standard EfficientNetB4 architecture trained with a classical end-to-end approach with the addition of an attention mechanism that allows the network to concentrate on the most important areas of the feature maps.
   EfficientNetAutoAttB4 is a model architecture that combines EfficientNet with an Auto-Attention mechanism for enhanced deepfake detection.
   The model focuses on relevant features using EfficientNet backbone with Auto-Attention, enabling precise predictions in deepfake detection tasks across different modalities.
