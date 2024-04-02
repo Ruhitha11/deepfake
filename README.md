@@ -39,10 +39,15 @@
       - Flattening layer : Transforms the multi-dimensional output from previous layers into a single-dimensional vector. This prepares the data for the final classification stage.
       - Dense layer : That is also called as Fully Connected Layer. It processes the features extracted by the convolutional layers to make predictions, distinguishing between genuine and manipulated audio.
       - Output layer : Provides the final classification output, indicating whether the audio is authentic or a deepfake by performing the classification with a sigmoid activation function.
+#### Metrics :
 
-Metrics :
 ![image](https://github.com/Ruhitha11/deepfake/assets/162871309/7f8ba948-1584-4504-ae94-d8722b93465e)
 
+![image](https://github.com/Ruhitha11/deepfake/assets/162871309/14b0c79c-bb44-424f-b228-a2a1af325590)
+
+![image](https://github.com/Ruhitha11/deepfake/assets/162871309/c98dc9a3-3211-4fa8-a8c0-4b69ceed093a)
+
+![image](https://github.com/Ruhitha11/deepfake/assets/162871309/5da0ece4-55b0-4518-ae61-bb7ffe60e86d)
 
 ## Dataset :
   - The dataset used for training is DFDC (Deepfake Detection Challenge).
