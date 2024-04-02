@@ -12,9 +12,9 @@
   - For video: Deep learning models might analyze facial landmarks, skin texture, blinking patterns or inconsistencies in lighting and motion.
   - For audio: Techniques might extract voice characteristics, analyze speech patterns for anomalies or identify inconsistencies between audio and lip movements.
 4) Model selection :
-  - Choose appropriate deep learning architectures for the analysis process.
+  - Choose appropriate deep learning architectures for the analysis process. The architecture used here is EfficientNetAutoAttB4 among these architectures (EfficientNetB4 , EfficientNetB4ST , EfficientNetAutoAttB4 , EfficientNetAutoAttB4ST , Xception).
 5) Model training :
   - Train a deep learning classifier model using the extracted features to distinguish between real and fake videos by splitting the dataset into training, validation and testing sets to evaluate model performance.
 6) Model evaluation :
-  - Evaluate the model's performance using metrics like accuracy, precision, recall and F1 score to ensure its effectiveness in detecting deepfakes.
+  - Evaluate the model's performance using metrics like confusion matrix , roc curve , precision recall curve , calibration curve and by mel spectrogram to ensure its effectiveness in detecting deepfakes.
 7)   
