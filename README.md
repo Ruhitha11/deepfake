@@ -17,4 +17,7 @@
   - Train a deep learning classifier model using the extracted features to distinguish between real and fake videos by splitting the dataset into training, validation and testing sets to evaluate model performance.
 6) Model evaluation :
   - Evaluate the model's performance using metrics like confusion matrix , roc curve , precision recall curve , calibration curve and by mel spectrogram to ensure its effectiveness in detecting deepfakes.
-7)   
+7) Model deployment :
+  - This involves integrating the trained model into a production environment where it can be used to detect deepfakes in real-world scenarios.
+  - That is basically, it involves implementing the trained model into a web platform or application for users to upload and analyze audio-video content for deepfake detection.
+  
