@@ -23,12 +23,7 @@
 ## Model Architecture 
 ### For video and image : EfficientNetAutoAttB4
   - EfficientNetAutoAttB4 is a model architecture that combines EfficientNet with an Auto-Attention mechanism for enhanced deepfake detection.
-  - It is a variant of the standard EfficientNetB4 architecture trained with a classical end-to-end approach with the addition of an attention mechanism that allows the network to concentrate on the most important areas of the feature maps.
-  - The model focuses on relevant features using EfficientNet backbone with Auto-Attention, enabling precise predictions in deepfake detection tasks across different modalities.
-  - EfficientNetAutoAttB4 can be trained from scratch on a specific dataset, or it can be fine-tuned from a pre-trained EfficientNet model.
-  - The AutoAttention block can be implemented using a variety of different attention mechanisms, such as self-attention or multi-head attention, that is applied to the features maps produced by the EfficientNet backbone. The AutoAttention block is designed to selectively focus on the most important features in the image, improving the model's performance on downstream tasks.
-  - The Attention layer uses a multi-head attention mechanism to compute the attention weights. The attention weights are then multiplied with the output of the EfficientNet backbone to selectively focus on the most important features. The top layers of the model are then added to produce the final output.
-  - So,this architecture aims to enhance feature extraction and refinement, enabling robust and efficient detection of manipulated content whether it is real or fake.
+  - A model combining EfficientNet with Auto-Attention for deepfake detection. It enhances feature extraction, enabling precise detection of manipulated content. Train from scratch or fine-tune from pre-trained EfficientNet. AutoAttention block focuses on vital features using self/multi-head attention mechanisms. Multi-head attention computes attention weights, emphasizing essential features. Top layers produce final output. Efficient and accurate detection of real/fake content.
 ### For audio : Convolutional Neural Network
   - A Convolutional Neural Network (CNN) is a type of deep learning architecture particularly well-suited for analyzing grid-like data, such  Mel spectrograms (visual representations of audio data). It excels at extracting spatial features by applying filters that slide across the input data, identifying patterns and relationships.
   - It includes layers such as
@@ -53,7 +48,7 @@
   - This dataset is regarded as one of the best resources for deepfake detection research due to its size, diversity, standardization, annotations, community engagement and impact on the field.
   - It is best suited for both audio and video detections.
 ```bash
-   link
+   la -> asvs..train -> flac
 ```
 ## Intel resources used :
   - Intel® oneAPI Deep Neural Network Library
