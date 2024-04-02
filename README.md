@@ -46,6 +46,18 @@
 ```bash
    link
 ```
+## Intel resources used :
+  - Intel® oneAPI Deep Neural Network Library
+  - Intel® Distribution for Python
+  - Intel® Developer Cloud
+  - Intel® oneAPI Base Toolkit
+  - Intel® AI Analytics Toolkit and Libraries
+  - PyTorch
+  - TensorFlow
+  - Scikit-learn
+
+
+
  
         
 
