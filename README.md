@@ -43,6 +43,9 @@
   - The dataset used for training is DFDC (Deepfake Detection Challenge).
   - This dataset is regarded as one of the best resources for deepfake detection research due to its size, diversity, standardization, annotations, community engagement and impact on the field.
   - It is best suited for both audio and video detections.
+```bash
+   link
+```
  
         
 
