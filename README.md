@@ -43,7 +43,23 @@
    LA/ASVspoof2019_LA_train/flac
 ```
 ## Results :
+![image](https://github.com/deepaksnk/DeepFake-Detection/assets/85092683/26a67847-7e7b-4a49-9887-9ff305f3d4d2)
 
+![image](https://github.com/deepaksnk/DeepFake-Detection/assets/85092683/073d86f2-605b-4018-8adb-dba59c63c9a1)
+
+![image](https://github.com/deepaksnk/DeepFake-Detection/assets/85092683/b0e0a185-4853-4175-a7a9-a45da6ce156f)
+
+![image](https://github.com/deepaksnk/DeepFake-Detection/assets/85092683/9d2bc56b-6ffb-46a3-bf23-9ef8319500ec)
+
+![image](https://github.com/deepaksnk/DeepFake-Detection/assets/85092683/d1b4031d-9f48-44b4-8e35-1ec0fc471273)
+
+![image](https://github.com/deepaksnk/DeepFake-Detection/assets/85092683/04d22f22-2355-4b06-98ca-2ea7ac69e1b0)
+
+![image](https://github.com/deepaksnk/DeepFake-Detection/assets/85092683/414f5025-d5d3-4c47-9b32-954d8d3ed298)
+
+![image](https://github.com/deepaksnk/DeepFake-Detection/assets/85092683/29398c30-bc71-4b7a-ba7f-17a903405caa)
+
+---------------------------------------------------------------------------------------------
 ![image](https://github.com/Ruhitha11/deepfake/assets/162871309/5da0ece4-55b0-4518-ae61-bb7ffe60e86d)
 
 ![image](https://github.com/Ruhitha11/deepfake/assets/162871309/7f8ba948-1584-4504-ae94-d8722b93465e)
