@@ -31,11 +31,11 @@
       - Dense layer : That is also called as Fully Connected Layer. It processes the features extracted by the convolutional layers to make predictions, distinguishing between genuine and manipulated audio.
       - Output layer : Provides the final classification output, indicating whether the audio is authentic or a deepfake by performing the classification with a sigmoid activation function.
  - EfficientNetAutoAttB4 is a model architecture that combines EfficientNet with an Auto-Attention mechanism for enhanced deepfake detection.
- - A model combining EfficientNet with Auto-Attention for deepfake detection. It enhances feature extraction, enabling precise detection of manipulated content. Train from scratch or fine-tune from pre-trained EfficientNet. AutoAttention block focuses on vital features using self/multi-head attention mechanisms. Multi-head attention computes attention weights, emphasizing essential features. Top layers produce final output. Efficient and accurate detection of real/fake content.
+ - A model combining EfficientNet with Auto-Attention for deepfake detection. It enhances feature extraction, enabling precise detection of manipulated content. Train from scratch or fine-tune from pre-trained EfficientNet. AutoAttention block focuses on vital features using self/multihead attention mechanisms. Multihead attention computes attention weights, emphasizing essential features. Top layers produce final output. Efficient and accurate detection of real/fake content.
 ## Getting started 
-1) Git clone
+1) Clone this repository 
 ```bash
-   https://github.com/deepaksnk/DeepFake-Detection.git
+   git clone https://github.com/deepaksnk/DeepFake-Detection.git
 ```
 2) You can access and run the notebook files in your preferred environment.
 ```bash
