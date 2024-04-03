@@ -37,11 +37,10 @@
 ```bash
    git clone https://github.com/deepaksnk/DeepFake-Detection.git
 ```
-2) To access the notebook files, follow these steps:
-      1. Navigate to the "notebook" folder in this repository.
-      2. Click on the desired notebook file to view its contents.
+2) To access the notebook files, follow these steps     
 ```bash
-   notebook
+   1. Navigate to the "notebook" folder in this repository.
+   2. Click on the desired notebook file to view its contents.
 ```
 ## Dataset 
 ### For video and image 
