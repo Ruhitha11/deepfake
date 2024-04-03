@@ -43,6 +43,7 @@
    LA/ASVspoof2019_LA_train/flac
 ```
 ## Results :
+
 ![image](https://github.com/deepaksnk/DeepFake-Detection/assets/85092683/26a67847-7e7b-4a49-9887-9ff305f3d4d2)
 
 ![image](https://github.com/deepaksnk/DeepFake-Detection/assets/85092683/073d86f2-605b-4018-8adb-dba59c63c9a1)
@@ -59,14 +60,6 @@
 
 ![image](https://github.com/deepaksnk/DeepFake-Detection/assets/85092683/29398c30-bc71-4b7a-ba7f-17a903405caa)
 
----------------------------------------------------------------------------------------------
-![image](https://github.com/Ruhitha11/deepfake/assets/162871309/5da0ece4-55b0-4518-ae61-bb7ffe60e86d)
-
-![image](https://github.com/Ruhitha11/deepfake/assets/162871309/7f8ba948-1584-4504-ae94-d8722b93465e)
-
-![image](https://github.com/Ruhitha11/deepfake/assets/162871309/14b0c79c-bb44-424f-b228-a2a1af325590)
-
-![image](https://github.com/Ruhitha11/deepfake/assets/162871309/c98dc9a3-3211-4fa8-a8c0-4b69ceed093a)
 ## Intel resources used :
   - Intel® oneAPI Deep Neural Network Library
   - Intel® Distribution for Python
