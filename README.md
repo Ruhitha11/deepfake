@@ -7,7 +7,7 @@
    - Gather a diverse dataset of both real and fake videos to train the detection model effectively.
 2) Preprocessing :
     - First it splits the video into frames next it extracts the every even frame. And then it does face detection followed by face cropping and finally frame resizing.
-    - Basically it extracts individual frames from video clips, preprocesses the data by applying techniques like rescaling, augmentation and normalization to enhance the dataset's geenralization.
+    - Basically it extracts individual frames from video clips, preprocesses the data by applying techniques like rescaling, augmentation and normalization to enhance the dataset's genralization.
 3) Feature extraction :
     - For video: Deep learning models might analyze facial landmarks, skin texture, blinking patterns or inconsistencies in lighting and motion.
     - For audio: Techniques might extract voice characteristics, analyze speech patterns for anomalies or identify inconsistencies between audio and lip movements.
@@ -32,23 +32,23 @@
       - Output layer : Provides the final classification output, indicating whether the audio is authentic or a deepfake by performing the classification with a sigmoid activation function.
  - EfficientNetAutoAttB4 is a model architecture that combines EfficientNet with an Auto-Attention mechanism for enhanced deepfake detection.
  - A model combining EfficientNet with Auto-Attention for deepfake detection. It enhances feature extraction, enabling precise detection of manipulated content. Train from scratch or fine-tune from pre-trained EfficientNet. AutoAttention block focuses on vital features using self/multi-head attention mechanisms. Multi-head attention computes attention weights, emphasizing essential features. Top layers produce final output. Efficient and accurate detection of real/fake content.
-## Clone the repository :
+## Getting started 
 1) Git clone
 ```bash
    https://github.com/deepaksnk/DeepFake-Detection.git
 ```
 2) You can access and run the notebook files in your preferred environment. 
-## Dataset :
-### For video and image :
+## Dataset 
+### For video and image 
   - The dataset used for training is DFDC (Deepfake Detection Challenge).
   - This dataset is regarded as one of the best resources for deepfake detection research due to its size, diversity, standardization, annotations, community engagement and impact on the field.
-### For audio :
+### For audio 
    - The dataset used for training is ASVspoof 2019 (Automatic Speaker Verification Spoofing and Countermeasures Challenge).
    - It is a comprehensive dataset and  focuses on a wide range of spoofing attacks, standardized evaluation metrics and continuous updates.
 ```bash
    LA/ASVspoof2019_LA_train/flac
 ```
-## Results :
+## Results 
 
 ![image](https://github.com/deepaksnk/DeepFake-Detection/assets/85092683/26a67847-7e7b-4a49-9887-9ff305f3d4d2)
 
@@ -67,7 +67,7 @@
 ![image](https://github.com/deepaksnk/DeepFake-Detection/assets/85092683/414f5025-d5d3-4c47-9b32-954d8d3ed298)
 
 ![image](https://github.com/deepaksnk/DeepFake-Detection/assets/85092683/29398c30-bc71-4b7a-ba7f-17a903405caa)
-## Intel resources used :
+## Intel resources used 
   - Intel® oneAPI Deep Neural Network Library
   - Intel® Distribution for Python
   - Intel® Developer Cloud
