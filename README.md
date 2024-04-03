@@ -46,6 +46,8 @@
 
 ![image](https://github.com/deepaksnk/DeepFake-Detection/assets/85092683/26a67847-7e7b-4a49-9887-9ff305f3d4d2)
 
+![image](https://github.com/deepaksnk/DeepFake-Detection/assets/85092683/b0e33b48-3de7-41c0-bbae-65234278dbf2)
+
 ![image](https://github.com/deepaksnk/DeepFake-Detection/assets/85092683/073d86f2-605b-4018-8adb-dba59c63c9a1)
 
 ![image](https://github.com/deepaksnk/DeepFake-Detection/assets/85092683/b0e0a185-4853-4175-a7a9-a45da6ce156f)
