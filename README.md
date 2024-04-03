@@ -19,12 +19,8 @@
     - Evaluate the model's performance using metrics like confusion matrix , roc curve , precision recall curve , calibration curve , mel spectrogram , accuracy and also F1 score to ensure its effectiveness in detecting deepfakes.
 7) Model deployment :
     - This involves integrating the trained model into a production environment where it can be used to detect deepfakes in real-world scenarios.
-    - That is basically, it involves implementing the trained model into a web platform or application for users to upload and analyze audio-video content for deepfake detection.
-## Model Architecture 
-### For video and image : EfficientNetAutoAttB4
-  - EfficientNetAutoAttB4 is a model architecture that combines EfficientNet with an Auto-Attention mechanism for enhanced deepfake detection.
-  - A model combining EfficientNet with Auto-Attention for deepfake detection. It enhances feature extraction, enabling precise detection of manipulated content. Train from scratch or fine-tune from pre-trained EfficientNet. AutoAttention block focuses on vital features using self/multi-head attention mechanisms. Multi-head attention computes attention weights, emphasizing essential features. Top layers produce final output. Efficient and accurate detection of real/fake content.
-### For audio : Convolutional Neural Network
+## Model Architecture : 
+### CNN :
   - A Convolutional Neural Network (CNN) is a type of deep learning architecture particularly well-suited for analyzing grid-like data, such  Mel spectrograms (visual representations of audio data). It excels at extracting spatial features by applying filters that slide across the input data, identifying patterns and relationships.
   - It includes layers such as
       - Input layer : Receives the audio data, typically represented as Mel spectrograms.
@@ -34,7 +30,19 @@
       - Flattening layer : Transforms the multi-dimensional output from previous layers into a single-dimensional vector. This prepares the data for the final classification stage.
       - Dense layer : That is also called as Fully Connected Layer. It processes the features extracted by the convolutional layers to make predictions, distinguishing between genuine and manipulated audio.
       - Output layer : Provides the final classification output, indicating whether the audio is authentic or a deepfake by performing the classification with a sigmoid activation function.
-#### Metrics :
+ - EfficientNetAutoAttB4 is a model architecture that combines EfficientNet with an Auto-Attention mechanism for enhanced deepfake detection.
+ - A model combining EfficientNet with Auto-Attention for deepfake detection. It enhances feature extraction, enabling precise detection of manipulated content. Train from scratch or fine-tune from pre-trained EfficientNet. AutoAttention block focuses on vital features using self/multi-head attention mechanisms. Multi-head attention computes attention weights, emphasizing essential features. Top layers produce final output. Efficient and accurate detection of real/fake content.
+## Dataset :
+### For video and image :
+  - The dataset used for training is DFDC (Deepfake Detection Challenge).
+  - This dataset is regarded as one of the best resources for deepfake detection research due to its size, diversity, standardization, annotations, community engagement and impact on the field.
+### For audio :
+   - The dataset used for training is ASVspoof 2019 (Automatic Speaker Verification Spoofing and Countermeasures Challenge).
+   - It is a comprehensive dataset and  focuses on a wide range of spoofing attacks, standardized evaluation metrics and continuous updates.
+```bash
+   LA/ASVspoof2019_LA_train/flac
+```
+## Results :
 
 ![image](https://github.com/Ruhitha11/deepfake/assets/162871309/5da0ece4-55b0-4518-ae61-bb7ffe60e86d)
 
@@ -43,13 +51,6 @@
 ![image](https://github.com/Ruhitha11/deepfake/assets/162871309/14b0c79c-bb44-424f-b228-a2a1af325590)
 
 ![image](https://github.com/Ruhitha11/deepfake/assets/162871309/c98dc9a3-3211-4fa8-a8c0-4b69ceed093a)
-## Dataset :
-  - The dataset used for training is DFDC (Deepfake Detection Challenge).
-  - This dataset is regarded as one of the best resources for deepfake detection research due to its size, diversity, standardization, annotations, community engagement and impact on the field.
-  - It is best suited for both audio and video detections.
-```bash
-   la -> asvs..train -> flac
-```
 ## Intel resources used :
   - Intel® oneAPI Deep Neural Network Library
   - Intel® Distribution for Python
