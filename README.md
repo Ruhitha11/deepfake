@@ -37,7 +37,9 @@
 ```bash
    git clone https://github.com/deepaksnk/DeepFake-Detection.git
 ```
-2) You can access and run the notebook files in your preferred environment.
+2) To access the notebook files, follow these steps:
+      1. Navigate to the "notebook" folder in this repository.
+      2. Click on the desired notebook file to view its contents.
 ```bash
    notebook
 ```
@@ -75,7 +77,6 @@
   - Intel® Distribution for Python
   - Intel® Developer Cloud
   - Intel® oneAPI Base Toolkit
-  - Intel® AI Analytics Toolkit and Libraries
   - PyTorch
   - TensorFlow
   - Scikit-learn
