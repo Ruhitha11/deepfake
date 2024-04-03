@@ -19,8 +19,8 @@
     - Evaluate the model's performance using metrics like confusion matrix , roc curve , precision recall curve , calibration curve , mel spectrogram , accuracy and also F1 score to ensure its effectiveness in detecting deepfakes.
 7) Model deployment :
     - This involves integrating the trained model into a production environment where it can be used to detect deepfakes in real-world scenarios.
-## Model Architecture : 
-### Convolutional Neural Network :
+## Model Architecture 
+### Convolutional Neural Network 
   - A Convolutional Neural Network (CNN) is a type of deep learning architecture particularly well-suited for analyzing grid-like data, such  Mel spectrograms (visual representations of audio data). It excels at extracting spatial features by applying filters that slide across the input data, identifying patterns and relationships.
   - It includes layers such as
       - Input layer : Receives the audio data, typically represented as Mel spectrograms.
