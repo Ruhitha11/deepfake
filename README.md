@@ -20,7 +20,7 @@
 7) Model deployment :
     - This involves integrating the trained model into a production environment where it can be used to detect deepfakes in real-world scenarios.
 ## Model Architecture : 
-### CNN :
+### Convolutional Neural Network :
   - A Convolutional Neural Network (CNN) is a type of deep learning architecture particularly well-suited for analyzing grid-like data, such  Mel spectrograms (visual representations of audio data). It excels at extracting spatial features by applying filters that slide across the input data, identifying patterns and relationships.
   - It includes layers such as
       - Input layer : Receives the audio data, typically represented as Mel spectrograms.
@@ -32,6 +32,12 @@
       - Output layer : Provides the final classification output, indicating whether the audio is authentic or a deepfake by performing the classification with a sigmoid activation function.
  - EfficientNetAutoAttB4 is a model architecture that combines EfficientNet with an Auto-Attention mechanism for enhanced deepfake detection.
  - A model combining EfficientNet with Auto-Attention for deepfake detection. It enhances feature extraction, enabling precise detection of manipulated content. Train from scratch or fine-tune from pre-trained EfficientNet. AutoAttention block focuses on vital features using self/multi-head attention mechanisms. Multi-head attention computes attention weights, emphasizing essential features. Top layers produce final output. Efficient and accurate detection of real/fake content.
+## Clone the repository :
+1) Git clone
+```bash
+   https://github.com/deepaksnk/DeepFake-Detection.git
+```
+2) You can access and run the notebook files in your preferred environment. 
 ## Dataset :
 ### For video and image :
   - The dataset used for training is DFDC (Deepfake Detection Challenge).
@@ -61,7 +67,6 @@
 ![image](https://github.com/deepaksnk/DeepFake-Detection/assets/85092683/414f5025-d5d3-4c47-9b32-954d8d3ed298)
 
 ![image](https://github.com/deepaksnk/DeepFake-Detection/assets/85092683/29398c30-bc71-4b7a-ba7f-17a903405caa)
-
 ## Intel resources used :
   - Intel® oneAPI Deep Neural Network Library
   - Intel® Distribution for Python
