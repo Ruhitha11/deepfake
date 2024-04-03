@@ -37,7 +37,10 @@
 ```bash
    https://github.com/deepaksnk/DeepFake-Detection.git
 ```
-2) You can access and run the notebook files in your preferred environment. 
+2) You can access and run the notebook files in your preferred environment.
+```bash
+   notebook
+```
 ## Dataset 
 ### For video and image 
   - The dataset used for training is DFDC (Deepfake Detection Challenge).
